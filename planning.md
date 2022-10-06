@@ -35,4 +35,4 @@ This page will contain the following:
         -3 wide
         -2 down
         -label for each image
-        -clicking on each imageopens the source of the image in a new window
+        -clicking on each image opens the source of the image in a new window

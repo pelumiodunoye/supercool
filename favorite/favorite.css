@@ -1,0 +1,45 @@
+html {
+    min-height: 100%;
+    background-image: url(/supercool/pics/fbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+._all {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    color: white;
+    overflow-x: hidden;
+    font-size: small;
+    font-family: sans-serif;
+}
+
+.f_navbar {
+    width: 100%;
+    border: 0px solid red;
+    border-left: 0;
+    border-right: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: medium;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: red;
+}
+
+.b {
+    text-decoration: none;
+    color: red;
+}
+
+.lastline {
+    color: white;
+}

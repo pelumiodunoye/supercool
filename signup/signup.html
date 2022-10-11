@@ -1,62 +1,73 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="/supercool/signup/signup.css">
+        <meta charset="UTF-8">
         <title>Sign up to join our Car Community</title>
     </head>
 
     <body>
-        <div class="navbar">
-            <a href="home.html">Home</a>
-            <a href="signup.html">Sign up</a>
-            <a href="favorite.html ">Favorite Car brands</a>
-            <a href="gallery.html">Gallery</a>
-        </div><br>
+        <div class="_all">
+            <div class="s_navbar">
+                <a href="/supercool/home/home.html" class="a">Home</a>
+                <a href="/supercool/signup/signup.html" class="a">Sign up</a>
+                <a href="/supercool/favorite/favorite.html" class="a">Favorites</a>
+                <a href="/supercool/gallery/gallery.html" class="a">Gallery</a>
+            </div><br>
 
-        <form action="/form-handling-url" method="post">
-            <fieldset>
-                <legend>Join the car community</legend>
-                <div>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name">
-                </div>
-                <br>
+            <div class="style">
+                <form action="/form-handling-url" method="post">
+                    <fieldset>
+                        <legend>Join the car community</legend>
+                        <div id="firstName">
+                            <label for="firstName" id="firstName">First Name:</label><br>
+                            <input type="text" id="firstName" name="first_name">
+                        </div>
 
-                <div>
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email_address">
-                </div>
-                <br>
+                        <div id="lastName">
+                            <label for="lastName" id="lastName">Last Name:</label><br>
+                            <input type="text" id="lastName" name="last_name">
+                        </div>
 
-                <div>
-                    <label for="gender">Gender</label>
-                    <select id="gender" name="user_gender">
-                        <option value="select">Select</option>
-                        <option value="male">Male</option>
-                        <option value="female">Female</option>
-                        <option value="binary">Binary</option>
-                        <option value="notsay">I'd rather not say</option>
-                        <option value="nub">None of your buiness</option>
-                    </select>
-                </div>
-                <br>
+                        <div id="email">
+                            <label for="email" id="email">Email:</label><br>
+                            <input type="email" id="email" name="email_address">
+                        </div>
 
-                <div>
-                    <label for="comments">Anything you want us to know about<em>(optional)</em></label><br>
-                    <textarea id="comments" name="comments"></textarea>
-                </div>
-                <br>
-                <div>
-                    <input type="checkbox" id="signup" name="sign_up" value="Sign up for our weekly newsletter">
-                    <label for="signup">Sign up for our weekly newsletter</label><br>
-                </div>
-                <br>
-                <div>
-                    <button type="submit">Sign up</button>
-                </div>
+                        <div class="parent">
+                            <div class="child">
+                                <label for="gender" id="gender" class="child">Gender</label><br>
+                                <select id="gender" name="user_gender">
+                                    <option value="select">Select</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="binary">Binary</option>
+                                    <option value="notsay">I'd rather not say</option>
+                                    <option value="nub">None of your buiness</option>
+                                </select>
+                            </div>
+                        </div>
 
-            </fieldset>
-        </form>
+                        <div class="comment">
+                            <label for="comments">Suggestions<em>(optional)</em></label><br>
+                            <textarea id="comments" name="comments"></textarea>
+                        </div>
 
-        <p>Check out some of our <a href="favorite.html ">Favorite Car brands</a></p>
+                        <div class="sign">
+                            <input type="checkbox" id="signup" name="sign_up" value="signup" class="si_gn">
+                            <label for="signup">Sign up for weekly emails</label><br>
+                        </div>
+                        <br>
+                        <div class="button">
+                            <button type="submit">Sign up</button>
+                        </div>
+
+                    </fieldset>
+                </form>
+
+            </div>
+
+            <p class="last_line"><center>Check out some of our <a href="/supercool/favorite/favorite.html" class="last">Favorites</a> Car brands</center></p>
+        </div>
     </body>
 </html>
